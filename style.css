@@ -4,7 +4,7 @@
     border-spacing: 1px;
     margin: auto;
 }
-.row{
+.row {
     display: table-row;
     background-color: beige;
 }
@@ -13,6 +13,12 @@
     width: 15px;
     height: 15px;
     background-color: aquamarine;
+}
+#start {
+    background-color: green;
+}
+#end {
+    background-color: red;
 }
 button {
     width: 120px;    
