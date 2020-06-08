@@ -22,7 +22,7 @@
 	const squares = document.querySelectorAll(".square"); //I do the same at navigation script
 
 	(() => {
-		let start = -1, end = -1;
+		let start = -1, end = -1; //Shold comment that, it's not obviues what the minus is for?
 		
 		for(let i=0; i<squares.length; i++){			
 			squares[i].addEventListener("click", () => {

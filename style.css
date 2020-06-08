@@ -14,6 +14,9 @@
     height: 15px;
     background-color: aquamarine;
 }
+#way {
+    background-color: yellow;
+}
 #start {
     background-color: green;
 }
