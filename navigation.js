@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 let navigate = (start, end) => {
     const map = document.querySelectorAll(".square"); //same is made in script file

@@ -1,3 +1,5 @@
+"use strict";
+
 (() => {
 	const n = 50;
 	const map = document.querySelector("#map");
@@ -31,7 +33,6 @@
 					start = i;					
 				}else if(end < 0) {
 					squares[i].id = "end";
-					x = 1;
 					end = i;
 					navigate(start, end)
 				}
